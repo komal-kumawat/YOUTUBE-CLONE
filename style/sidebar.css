@@ -5,15 +5,28 @@
     top:55px;
     background-color:white;
     align-items:center;
-    width:50px;
+    width:72px;
+    z-index:2;
 }
-.home,.explore,.subscription,.originals,.music,.library{
-    height: 27px;
-    margin-top: 20px;
-    margin-left:10px;
+.sidebar-link img{
+    height:25px;
+    margin-bottom:4px;
 }
-.x{
-    font-size:13px;
-    text-align:center;
-    color:rgb(118, 111, 111);
+.sidebar-link{
+    height:76px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    
+    margin-bottom:1px;
+    /* padding-top:2px; */
+}
+.sidebar-link:hover{
+    background-color:rgb(244, 242, 242);
+    cursor:pointer;
+}
+.sidebar div{
+    font-family:Arial;
+    font-size:10px;
 }
