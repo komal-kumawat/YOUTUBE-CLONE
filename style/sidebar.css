@@ -1,0 +1,19 @@
+.sidebar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:55px;
+    background-color:white;
+    align-items:center;
+    width:50px;
+}
+.home,.explore,.subscription,.originals,.music,.library{
+    height: 27px;
+    margin-top: 20px;
+    margin-left:10px;
+}
+.x{
+    font-size:13px;
+    text-align:center;
+    color:rgb(118, 111, 111);
+}
